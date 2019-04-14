@@ -1,0 +1,31 @@
+<?php require '../controllers/controller/invoiceController.php'; ?>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Invoices</title>
+  </head>
+  <body>
+    <form class="" action="index.html" method="post">
+        <label for="">Cantidad:</label>
+        <input type="number" name="" placeholder="Cantidad">
+        <label>Medio de Transporte:</label>
+        <select name="tranport">
+          <option>Ferrocarril</option>
+          <option>Barco</option>
+        </select>
+        <label>Unidad:</label>
+        <select>
+          <option>Vagon</option>
+          <option>Contenedor</option>
+        </select>
+        <label>Costo:</label>
+        <input type="text" name="cost" placeholder="Costo">
+        <label>Descuento:</label>
+        <input type="text" name="descount" placeholder="Descuento">
+        <label>Total</label>
+        <input type="text" name="total" placeholder="total">
+        <<button type="submit" name="button">Registrar</button>
+    </form>
+  </body>
+</html>
